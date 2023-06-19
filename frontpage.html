@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Details</title>
+    <link rel="stylesheet" href="frontpage.css">
+</head>
+
+<body class="c">
+    <nav>
+        <label class="logo">Description of The Country </label>
+        <ul>
+            <li class="a">Home </li>
+            <li class="a">Contact </li>
+            <li class="a">News</li>
+            <li class="a">Service </li>
+        </ul>
+        <input class="input" type="text" placeholder="Country Name" id="in">
+        <button type="button" id="search-btn" onclick="showCountryInfo()">Search</button>
+    </nav>
+    <div id="main-country">
+    </div>
+    <div id="borders">
+    </div>
+    <script src="FetchApi.js"></script>
+    <script>
+        let firstflow = true;
+        showCountryInfo();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background-color: rgb(228, 222, 222);
+     height:70px ;
+     width:100% ;
+}
+.logo{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold; 
+    font-family:monospace;
+}
+nav ul{
+    float: left;
+    margin-left: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+l.a{
+  
+    transition: 5s;
+    
+}
+
+#in{
+    height: 30px;
+}
+.cards1{
+    width: 30%;
+    background-color: rgb(177, 211, 211) ;
+    border-radius: 5px;
+    margin: 10px;
+ transform: translate(45%,5%);
+    font-family:'Courier New', Courier, monospace;
+    display: inline-block;
+    
+}
+.cards1:hover{
+    box-shadow: 3px 3px 10px black;
+}
+.cards{
+    width: 25%;
+    background-color: rgb(177, 211, 211) ;
+    border-radius: 5px;
+    margin: 40px;
+    font-family:'Courier New', Courier, monospace;
+    display: inline-block;
+}
+.cards:hover{
+    box-shadow: 3px 3px 10px black;
+}
+
+.image img{
+    width: 100%;
+    height: 230px;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   
+}
+.title{
+    text-align: center;
+    padding: 5px;
+}
+.des{
+    text-align: center;
+}
+button{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    color: aliceblue;
+    transition: 1s;
+}
+
+.p-info {
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;/* adjust as needed */
+}
+/* .a{
+  
+    margin-top: 20px;
+    background-color: aqua;
+} */
+/* .c{
+    background-color: brown;
+} */
+
+
+
+
+
